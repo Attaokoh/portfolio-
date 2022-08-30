@@ -1,0 +1,14 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+@media (min-width: 800px) {
+    .news-input{
+        width: 20%;
+    }
+}
+.newsletter{
+    position: sticky;
+    top: 0;
+}
